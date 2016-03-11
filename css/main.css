@@ -614,18 +614,18 @@ input {
 
 .innerHackathonTitle {
   /* Upcoming hackathons : */
-  font-family: OpenSans-Bold;
   font-size: 1.3em;
   color: #FFFFFF;
   line-height: 28px;
-  text-align: right; }
+  text-align: right;
+  font-weight: bold; }
 
 .hackathonLists {
-  float: right; }
+  float: right;
+  font-weight: lighter; }
   .hackathonLists .texts {
     float: right;
     /* HACKATHON, LOCATION: */
-    font-family: OpenSans-Light;
     font-size: 1.5em;
     color: #FFFFFF;
     line-height: 28px; }
