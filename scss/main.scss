@@ -1,0 +1,27 @@
+$main-font: 'Open Sans',
+sans-serif;
+$title-font: 'Inconsolata',
+sans-serif;
+$primary-color: #DC1F1F;
+$nav-height: 85px;
+@import "normalize";
+@import "grid";
+@import "standards";
+@import "firstscreen";
+@import "secondscreen";
+@import "thirdscreen";
+@import "fourthscreen";
+@import "fifthscreen";
+@import "utils";
+.orgCards {
+  img {
+    height: auto;
+    border-radius: 100%;
+    width: 100%
+  }
+  text-align: center;
+  font-size: 1em;
+  a:link {
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,98 @@
+@import "utils";
+body {
+  color: white;
+  font-family: $main-font;
+  font-size: 1.125em;
+}
+
+nav {
+  background: darken($primary-color, 5);
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  ul {
+    height: $nav-height;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    li {
+      box-flex: 1;
+      line-height: $nav-height;
+      display: inline;
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+section {
+  position: relative;
+  min-height: 1024px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content {
+  z-index: 2;
+  position: relative;
+  margin: auto;
+  padding-top: 85px;
+  max-width: 940px;
+  a {
+    color: white;
+  }
+  a:hover {
+    color: darken(white, 5);
+    text-decoration: underline;
+  }
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  background: rgba(54, 54, 54, .82);
+  top: 0;
+  left: 0;
+  position: absolute;
+  &.solid {
+    background-color: $primary-color;
+  }
+}
+
+.spacer {
+  height: 85px;
+}
+
+.spacerSmaller {
+  height: 40px;
+}
+
+.notFirst {
+  font-family: Menlo-Regular;
+  font-size: 2.25em;
+  color: #FFFFFF;
+  line-height: 30px;
+}
+
+.row {
+  @include clearfix;
+}
+
+input {
+  border-top: 0px solid;
+  border-bottom: 1px solid;
+  border-right: 0px solid;
+  border-left: 0px solid;
+  margin: 14px 0px 0px 0px;
+  height: 40px;
+  padding: 0px 0px 0px 0px;
+  font-size: 1em;
+  background-color: transparent;
+  width: 100%;
+  border-color: white;
+  color: white;
+}
