@@ -511,8 +511,7 @@ section {
   z-index: 2;
   position: relative;
   margin: auto;
-  padding-top: 85px;
-  max-width: 940px; }
+  padding-top: 85px; }
   .content a {
     color: white; }
   .content a:hover {
