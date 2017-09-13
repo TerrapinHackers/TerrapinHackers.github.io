@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="robot" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 303.9 220.9" style="enable-background:new 0 0 303.9 220.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#DB2828;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#DB2928;}
+</style>
+<rect id="face" x="36.9" y="59.1" class="st0" width="229.8" height="161.8"/>
+<rect id="leftEye" x="80.9" y="86" class="st1" width="28.1" height="29.1"/>
+<rect id="rightEye" x="195" y="86" class="st1" width="28.9" height="29.1"/>
+<rect id="nose" x="145" y="138.1" class="st1" width="14.1" height="14.9"/>
+<polygon id="mouth" class="st1" points="103,171.1 116.9,171.1 116.9,186.9 187.9,186.9 187.9,171.1 201.9,171.1 201.9,198 103,198 
+	"/>
+<rect id="rightEar" y="92" class="st2" width="29" height="43"/>
+<rect id="leftEar" x="276" y="92" class="st2" width="28" height="43"/>
+<g id="leftAntenna">
+	<rect x="120" y="20" class="st2" width="7" height="34"/>
+	<polygon class="st2" points="115,17 131.9,17 131.9,0 115,0.1 	"/>
+</g>
+<g id="rightAntenna">
+	<rect x="172.9" y="0" class="st2" width="16.9" height="16.9"/>
+	<rect x="178" y="20" class="st2" width="7" height="33.9"/>
+</g>
+</svg>

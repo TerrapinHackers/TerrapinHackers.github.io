@@ -8,6 +8,7 @@ header {
     position: relative;
     background-color: #F66767;
     padding-top: 50px;
+    height: 90vh;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0;
     color: white;
@@ -53,7 +54,7 @@ header {
     padding-left: 20px;
 }
 
-.navigation__right .navigation__item:last-of-type:after {
+.navigation__right .navigation__item.last:after {
     content: '';
 }
 
@@ -148,12 +149,12 @@ header .cards {
     -webkit-overflow-scrolling: touch;
 }
 
-header .cards::-webkit-scrollbar {
+.cards::-webkit-scrollbar {
     display: none;
 }
 
 
-header .cards .card {
+.cards .card {
     display: inline-block;
     white-space: normal;
     vertical-align: top;
@@ -252,6 +253,7 @@ section.announcement {
     font-size: 18px;
     line-height: 35px;
     font-weight: normal;
+    height: 10vh;
 }
 
 .announcement a {
@@ -345,16 +347,7 @@ section .section__container {
 /* Hacktorials ------------------------------------------ */
 
 section.hacktorials {
-    background-color: rgba(255,255,255, 1.0);
-    color: black;
-}
-
-.hacktorials h1.title {
-    color: black;
-}
-
-.hacktorials .section__description {
-    color: black;
+    background-color: rgba(52, 73, 94, 1.0);
 }
 
 .hacktorials .ui.grid {
@@ -414,81 +407,6 @@ section.hackathons {
     }
 
     .hackathons__calendar .header {
-        text-align: center;
-    }
-}
-
-/* Hacktorials ------------------------------------------ */
-
-section.collider {
-    background-color: rgba(255,255,255, 1.0);
-    color: black;
-}
-
-.collider h1.title {
-    color: black;
-}
-
-.collider .section__description {
-    color: black;
-}
-
-.collider .ui.grid {
-    margin-top: 30px;
-}
-
-.collider__image_gallery img {
-      max-width:100%;
-  height:auto;
-
-}
-
-@media (max-width: 753px) {
-
-
-    .ui.segment.collider__calendar {
-        margin-top: 20px;
-    }
-
-    .collider__calendar .header {
-        text-align: center;
-    }
-}
-
-/* Teams */
-
-section.team {
-    background-color: #EB7E7E;
-}
-
-.team .team__card_container {
-    margin-top: 40px;
-}
-
-.team .ui.grid {
-    margin-top: 30px;
-}
-
-.team__calendar .header {
-    font-weight: bold;
-    font-size: 20px;
-    margin: 20px 0px;
-}
-
-.team__calendar .header:first-of-type {
-    margin-top: 0px;
-}
-
-@media (max-width: 753px) {
-    .team__description {
-        text-align: center;
-    }
-
-    .ui.segment.team__calendar {
-        margin-top: 20px;
-    }
-
-    .team__calendar .header {
         text-align: center;
     }
 }
