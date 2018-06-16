@@ -6,7 +6,7 @@ body {
 
 header {
     position: relative;
-    background-color: #F66767;
+    background-color: #d4403b;
     padding-top: 50px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0;
@@ -76,10 +76,11 @@ header {
     }
 
     .navigation__right {
-        display: none; // background-color: black;
+        display: none;
+        /* // background-color: black;
         // display: block;
         // margin-top: 0px;
-        // float: none;
+        // float: none; */
     }
 }
 
@@ -203,7 +204,7 @@ header .cards .card {
 .card .card__title {
     font-weight: bold;
     font-size: 18px;
-    color: #F66767;
+    color: #d01919;
 }
 
 .card .card__content {
@@ -217,7 +218,7 @@ header .cards .card {
     text-align: center;
     right: 10px;
     padding: 5px 10px;
-    background-color: #EB7E7E;
+    background-color: #d01919;
     border-radius: 5px;
 }
 
@@ -260,7 +261,7 @@ section.announcement {
 }
 
 .announcement .announcement__button {
-    background-color: #EB7E7E;
+    background-color: #d01919;
     color: white;
     font-size: 12px;
     padding: 10px 15px;
@@ -387,7 +388,7 @@ section.hacktorials {
 /* Hackathons ------------------------------------------ */
 
 section.hackathons {
-    background-color: #EB7E7E;
+    background-color: #d4403b;
 }
 
 .hackathons .ui.grid {
@@ -458,7 +459,7 @@ section.collider {
 /* Teams */
 
 section.team {
-    background-color: #EB7E7E;
+    background-color: #d4403b;
 }
 
 .team .team__card_container {
