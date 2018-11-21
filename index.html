@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.css">
     <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
+
     <header>
         <div class="navigation">
             <div class="navigation__logo">
@@ -68,42 +70,49 @@
             More Information: <a href="http://ter.ps/lhdumd18">http://ter.ps/lhdumd18</a>
         </section>
         <!-- End countdown timer for LHD and info-->
-        <div class="hero">
-            <h1 class="title">
-            Terrapin Hackers
-            </h1>
-            <h2 class="description">
-            Terrapin Hackers is about building interesting things -- combining excellence, playfulness, cleverness, and exploration.
-             </h2>
-        </div>
-        <div class="cards">
-            <div class="card">
-                <div class="card__title">Weekly Hacktorials</div>
-                <div class="card__content">Hacktorials are workshops that provide instruction and insights into various engaging and career-building topics including programming, engineering, and design.</div>
-                <div class="card__button">
-                    <a href="#hacktorials">View Hacktorial Calendar</a>
-                </div>
+
+
+        <div style="width:75%;margin:auto;">
+            <div class="hero">
+                <h1 class="title">
+                Terrapin Hackers
+                </h1>
+                <h2 class="description">
+                Terrapin Hackers is about building interesting things -- combining excellence, playfulness, cleverness, and exploration.
+                </h2>
             </div>
-            <div class="card">
-                <div class="card__title">Hackathon Trips</div>
-                <div class="card__content">Hackathons are 24-36 hour competitions where people come together to develop and work on projects that solve a particular problem, and potentially win prizes from corporate sponsors. Buses are provided to Hackathons across the East Coast and the Midwest.</div>
-                <div class="card__button">
-                    <a href="#hackathons">Check Bus Schedule</a>
+            <div class="cards">
+                <div class="card">
+                    <div class="card__title">Weekly Hacktorials</div>
+                    <div class="card__content">Hacktorials are workshops that provide instruction and insights into various engaging and career-building topics including programming, engineering, and design.</div>
+                    <div class="card__button">
+                        <a href="#hacktorials">View Hacktorial Calendar</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <div class="card__title">Collider (Makerspace)</div>
-                <div class="card__content">Collider is our makerspace, located in the basement of the chemistry building. Collider has materials, resources, and tools to assist you in building your projects.
-                 </div>
-                <div class="card__button">
-                    <a href="#collider">Learn more</a>
+                <div class="card">
+                    <div class="card__title">Hackathon Trips</div>
+                    <div class="card__content">Hackathons are 24-36 hour competitions where people come together to develop and work on projects that solve a particular problem, and potentially win prizes from corporate sponsors. Buses are provided to Hackathons across the East Coast and the Midwest.</div>
+                    <div class="card__button">
+                        <a href="#hackathons">Check Bus Schedule</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <div class="card__title">Organizing Team</div>
-                <div class="card__content">Want to help run Terrapin Hackers? Join the organizing team! Email us at <strong>team@terrapinhackers.com</strong></div>
-                <div class="card__button">
-                    <a href="https://www.facebook.com/events/116712192359906/">Click to Attend</a>
+                
+                <div style="height:20px;width:100%;"> </div>
+
+                <div class="card">
+                    <div class="card__title">Sandbox (Makerspace)</div>
+                    <div class="card__content">Sandbox is our makerspace, located at CSIC3107. The Sandbox has materials, resources, and tools to assist you in building your projects.
+                    </div>
+                    <div class="card__button">
+                        <a href="#sandbox">Learn more</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__title">Organizing Team</div>
+                    <div class="card__content">Want to help run Terrapin Hackers? Join the organizing team! Email us at <strong>team@terrapinhackers.com</strong></div>
+                    <div class="card__button">
+                        <a href="https://www.facebook.com/events/116712192359906/">Click to Attend</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -123,95 +132,12 @@
                     <p>The difficulty and skill-level for each Hacktorial varies, but most Hacktorials are designed with beginners in mind. </p>
                     <p>If you're interested in doing a Hacktorial, drop us a line.</p>
                 </div>
-                <div class="ten wide right floated column">
-                    <div class="ui segment hacktorials__calendar">
-                        <div class="header">Upcoming</div>
-                        <div class="hacktorial__calendar__events">
-                            <table class="ui celled table">
-                                <thead>
-                                    <tr>
-                                        <th>Title</th>
-                                        <th>Presenter</th>
-                                        <th>Event Link</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            Making Your Own Android App
-                                        </td>
-                                        <td>
-                                            Travis Ho
-                                        </td>
-                                        <td>
-                                            <a href="https://www.facebook.com/TerrapinHackers" class="ui fluid blue mini labeled icon button">
-                                                <i class="facebook icon"></i> Event
-                                            </a>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="header">Past</div>
-                        <div class="hacktorial__calendar__events">
-                            <table class="ui celled table">
-                                <thead>
-                                    <tr>
-                                        <th>Title</th>
-                                        <th>Presenter</th>
-                                        <th>Event Link</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            Intro to NLP
-                                        </td>
-                                        <td> Tim Wang</td>
-                                        <td>
-                                            <a href="https://www.facebook.com/events/1752151351781531" class="ui fluid blue mini labeled icon button">
-                                                <i class="facebook icon"></i> Event
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            Learn React.js for Full Stack Apps
-                                        </td>
-                                        <td> Michael Anderjaska</td>
-                                        <td>
-                                            <a href="https://www.facebook.com/events/1837249179934744" class="ui fluid blue mini labeled icon button">
-                                                <i class="facebook icon"></i> Event
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            Build a Machine Learning Model for Self Driving Cars
-                                        </td>
-                                        <td>Sujith Vishwajith</td>
-                                        <td>
-                                            <a href="https://www.facebook.com/events/605526479656651" class="ui fluid blue mini labeled icon button">
-                                                <i class="facebook icon"></i> Event
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            (Cybersecurity) Learn to Crack Passwords
-                                        </td>
-                                        <td>George Hughey</td>
-                                        <td>
-                                            <a href="https://www.facebook.com/events/1627459097563062" class="ui fluid blue mini labeled icon button">
-                                                <i class="facebook icon"></i> Event
-                                            </a>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <a href="https://www.facebook.com/pg/terrapinhackers/events/" class="ui blue fluid button">View All Hacktorials on Facbook Page</a>
-                        </div>
-                    </div>
+                <div id="events_container" class="ten wide right floated column">
+                    
+                    <h3><emp>Bring your laptop to all events!</emp></h3>
+                    
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fterrapinhackers%2F&tabs=events&width=400&height=400&small_header=true&adapt_container_width=false&hide_cover=true&show_facepile=false&appId" width="400" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                    
                 </div>
             </div>
         </div>
@@ -246,30 +172,54 @@
         </div>
     </section>
     <section class="collider">
-        <a name="collider"></a>
+        <a name="sandbox"></a>
         <div class="section__container">
             <div class="ui stackable grid">
                 <div class="six wide column section__description">
-                    <h1 class="title">Collider</h1>
-                    <p>Want to build something? Collider is TH's student-run hackerspace, located in the Chemistry Building.</p>
-                    <p>We have the materials you need to build your projects. From Arduinos to Velostat to Kinect Sensors to Drones, you can find materials and resources in the space.</p>
-                    <p>Collider is open <strong>24/7</strong> and is located at CHEM B0215.</p>
-                    For more information, and instructions on how to get there, visit our website at:
+                    <h1 class="title">Sandbox</h1>
+                    <p style="line-height:20px;">Beginning in the Fall Semester of 2018 Terrapin Hackers has joined forces with the Sandbox, 
+                    a student ran maker space that is located at <b>CSIC3107</b>. The Sandbox is an excellent place to go
+                    to work on projects, get access to powertools, or just simply hangout with other members of Terrapin Hackers!  The Sandbox
+                    is generally open 
+                    <ul>
+                        <li>
+                            <b>3pm-8pm Monday through Thursday</b>
+                        </li>
+                        <li>
+                            <b>3pm-5:30pm on Friday</b>
+                        </li>
+
+                    </ul> 
+                    <br> In addition, we will be having <b>directors hours</b> at the Sandbox from: <br>
+                    <ul>
+                        <b>
+                            <li>
+                                Monday and Wednesday: 6pm-8pm
+                            </li>
+                            <li>
+                                Tuesday and Thursdays: 1pm-3:30pm
+                            </li>
+                        </b>
+                    </ul> 
+
+                    This is a great opportuntiy to talk to the directors and be able to ask questions about projects you are working on.                    
                     <br>
-                    <br>
-                    <a class="ui fluid red button" href="http://collider.org">collider.org</a>
+
+                    Any Sandbox specific questions should be directed towards the Directors of the Sandbox.  Follow the 
+                    link below to get to their website.
+                    <a class="ui fluid red button"  style="margin-top:10px;" href="https://sandbox.cs.umd.edu/">The Sandbox</a>
                 </div>
                 <div class="eight wide right floated column collider__image_gallery">
                     <div class="ui grid">
                         <div class="row">
                             <div class="column">
-                                <img src="img/collider3.JPG">
+                                <img src="./img/projector.jpg">
                             </div>
                         </div>
                         <div class="three column row">
-                            <div class="column"><img src="img/collider1.JPG"></div>
-                            <div class="column"><img src="img/collider2.JPG"></div>
-                            <div class="column"><img src="img/collider4.JPG"></div>
+                            <div class="column"></div>
+                            <div class="column"></div>
+                            <div class="column"></div>
                         </div>
                     </div>
                 </div>
@@ -289,14 +239,14 @@
                 </div>
                 <div class="card">
                     <div class="content">
-                        <div class="header">Josiah Wedgewood</div>
+                        <div class="header">Josiah Wedgwood</div>
                         <div class="meta">Vice President</div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="content">
                         <div class = "header">Eric Frye</div>
-                        <div class = "meta">Director of Collider</div>
+                        <div class = "meta">Director of Community</div>
                     </div>
                 </div>
                 <div class="card">
