@@ -498,3 +498,9 @@ section.team {
         text-align: center;
     }
 }
+
+#eventsIframe {
+    height: 100%;
+    width: 100%;
+    text-align:center;
+}
