@@ -84,8 +84,13 @@ header {
     }
 }
 
-
-
+/* LHD Timer ------ */
+.timer {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 80px;
+}
 
 
 /* Hero ------------------------------------------ */
@@ -492,4 +497,10 @@ section.team {
     .team__calendar .header {
         text-align: center;
     }
+}
+
+#eventsIframe {
+    height: 100%;
+    width: 100%;
+    text-align:center;
 }
